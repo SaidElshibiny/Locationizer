@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5251708EA9865459875F9912 /* Pods_Locationizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6715EDCBF1F40C2E229F17B3 /* Pods_Locationizer.framework */; };
+		56017DCF21A0B64C00CB7A34 /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56017DCE21A0B64C00CB7A34 /* YelpClient.swift */; };
+		56017DD121A0BAEC00CB7A34 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56017DD021A0BAEC00CB7A34 /* Business.swift */; };
+		56017DD921A0DE1500CB7A34 /* NearbyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56017DD821A0DE1500CB7A34 /* NearbyTableViewCell.swift */; };
+		561F176521AA69E6007D1376 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561F176421AA69E6007D1376 /* CustomTabBarController.swift */; };
+		56D17CD721A9DD5D0076E8D1 /* todoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D17CD621A9DD5D0076E8D1 /* todoListViewController.swift */; };
+		56FEACDD21B78B3600178149 /* TodoListDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56FEACDB21B78B3600178149 /* TodoListDataModel.xcdatamodeld */; };
 		B324CE5C219314AB00E86B3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B324CE5B219314AB00E86B3A /* AppDelegate.swift */; };
-		B324CE5E219314AB00E86B3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B324CE5D219314AB00E86B3A /* ViewController.swift */; };
 		B324CE61219314AB00E86B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B324CE5F219314AB00E86B3A /* Main.storyboard */; };
 		B324CE63219314AC00E86B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B324CE62219314AC00E86B3A /* Assets.xcassets */; };
 		B324CE66219314AC00E86B3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B324CE64219314AC00E86B3A /* LaunchScreen.storyboard */; };
+		B324CE6E2193424100E86B3A /* NearbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B324CE6D2193424100E86B3A /* NearbyViewController.swift */; };
+		B358691821B92CD80029C2B2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B358691721B92CD80029C2B2 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56017DCE21A0B64C00CB7A34 /* YelpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
+		56017DD021A0BAEC00CB7A34 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		56017DD821A0DE1500CB7A34 /* NearbyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyTableViewCell.swift; sourceTree = "<group>"; };
+		561F176421AA69E6007D1376 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		56D17CD621A9DD5D0076E8D1 /* todoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoListViewController.swift; sourceTree = "<group>"; };
+		56FEACDC21B78B3600178149 /* TodoListDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TodoListDataModel.xcdatamodel; sourceTree = "<group>"; };
+		6715EDCBF1F40C2E229F17B3 /* Pods_Locationizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Locationizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A767FD018712CDF812F4850B /* Pods-Locationizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Locationizer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Locationizer/Pods-Locationizer.release.xcconfig"; sourceTree = "<group>"; };
 		B324CE58219314AB00E86B3A /* Locationizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locationizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B324CE5B219314AB00E86B3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B324CE5D219314AB00E86B3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B324CE60219314AB00E86B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B324CE62219314AC00E86B3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B324CE65219314AC00E86B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B324CE67219314AC00E86B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B324CE6D2193424100E86B3A /* NearbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyViewController.swift; sourceTree = "<group>"; };
+		B358691721B92CD80029C2B2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E24187647E1FFBE9864B0AB0 /* Pods-Locationizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Locationizer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Locationizer/Pods-Locationizer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5251708EA9865459875F9912 /* Pods_Locationizer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56017DCA21A0B2D600CB7A34 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B324CE6D2193424100E86B3A /* NearbyViewController.swift */,
+				56D17CD621A9DD5D0076E8D1 /* todoListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		56017DCB21A0B2F400CB7A34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B324CE5F219314AB00E86B3A /* Main.storyboard */,
+				B358691721B92CD80029C2B2 /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		56017DCC21A0B2F900CB7A34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				56FEACDB21B78B3600178149 /* TodoListDataModel.xcdatamodeld */,
+				56017DD821A0DE1500CB7A34 /* NearbyTableViewCell.swift */,
+				561F176421AA69E6007D1376 /* CustomTabBarController.swift */,
+				56017DD021A0BAEC00CB7A34 /* Business.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		56017DCD21A0B63500CB7A34 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				56017DCE21A0B64C00CB7A34 /* YelpClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		56FEACDA21B77EA200178149 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B324CE62219314AC00E86B3A /* Assets.xcassets */,
+				B324CE64219314AC00E86B3A /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76BAACEAC5D027C190550A5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E24187647E1FFBE9864B0AB0 /* Pods-Locationizer.debug.xcconfig */,
+				A767FD018712CDF812F4850B /* Pods-Locationizer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B324CE4F219314AB00E86B3A = {
 			isa = PBXGroup;
 			children = (
 				B324CE5A219314AB00E86B3A /* Locationizer */,
 				B324CE59219314AB00E86B3A /* Products */,
+				76BAACEAC5D027C190550A5C /* Pods */,
+				B401489FC8E16253A9E26E32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +130,23 @@
 		B324CE5A219314AB00E86B3A /* Locationizer */ = {
 			isa = PBXGroup;
 			children = (
+				56017DCD21A0B63500CB7A34 /* API */,
+				56017DCC21A0B2F900CB7A34 /* Model */,
+				56017DCB21A0B2F400CB7A34 /* View */,
+				56017DCA21A0B2D600CB7A34 /* Controller */,
+				56FEACDA21B77EA200178149 /* Supporting Files */,
 				B324CE5B219314AB00E86B3A /* AppDelegate.swift */,
-				B324CE5D219314AB00E86B3A /* ViewController.swift */,
-				B324CE5F219314AB00E86B3A /* Main.storyboard */,
-				B324CE62219314AC00E86B3A /* Assets.xcassets */,
-				B324CE64219314AC00E86B3A /* LaunchScreen.storyboard */,
 				B324CE67219314AC00E86B3A /* Info.plist */,
 			);
 			path = Locationizer;
+			sourceTree = "<group>";
+		};
+		B401489FC8E16253A9E26E32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6715EDCBF1F40C2E229F17B3 /* Pods_Locationizer.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B324CE6A219314AC00E86B3A /* Build configuration list for PBXNativeTarget "Locationizer" */;
 			buildPhases = (
+				71480F955D1D3CE0633C952A /* [CP] Check Pods Manifest.lock */,
 				B324CE54219314AB00E86B3A /* Sources */,
 				B324CE55219314AB00E86B3A /* Frameworks */,
 				B324CE56219314AB00E86B3A /* Resources */,
+				B6DDA25482A771FD49D5D0E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +183,7 @@
 				TargetAttributes = {
 					B324CE57219314AB00E86B3A = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -130,13 +218,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		71480F955D1D3CE0633C952A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Locationizer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6DDA25482A771FD49D5D0E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Locationizer/Pods-Locationizer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/BDBOAuth1Manager/BDBOAuth1Manager.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YelpAPI/YelpAPI.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BDBOAuth1Manager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YelpAPI.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Locationizer/Pods-Locationizer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B324CE54219314AB00E86B3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B324CE5E219314AB00E86B3A /* ViewController.swift in Sources */,
+				56017DCF21A0B64C00CB7A34 /* YelpClient.swift in Sources */,
+				B358691821B92CD80029C2B2 /* CardView.swift in Sources */,
+				561F176521AA69E6007D1376 /* CustomTabBarController.swift in Sources */,
 				B324CE5C219314AB00E86B3A /* AppDelegate.swift in Sources */,
+				56FEACDD21B78B3600178149 /* TodoListDataModel.xcdatamodeld in Sources */,
+				56017DD121A0BAEC00CB7A34 /* Business.swift in Sources */,
+				B324CE6E2193424100E86B3A /* NearbyViewController.swift in Sources */,
+				56D17CD721A9DD5D0076E8D1 /* todoListViewController.swift in Sources */,
+				56017DD921A0DE1500CB7A34 /* NearbyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,16 +422,23 @@
 		};
 		B324CE6B219314AC00E86B3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E24187647E1FFBE9864B0AB0 /* Pods-Locationizer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Locationizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ca.saidelshibiny.Locationizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,16 +446,22 @@
 		};
 		B324CE6C219314AC00E86B3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A767FD018712CDF812F4850B /* Pods-Locationizer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Locationizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ca.saidelshibiny.Locationizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -334,6 +489,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		56FEACDB21B78B3600178149 /* TodoListDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				56FEACDC21B78B3600178149 /* TodoListDataModel.xcdatamodel */,
+			);
+			currentVersion = 56FEACDC21B78B3600178149 /* TodoListDataModel.xcdatamodel */;
+			path = TodoListDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B324CE50219314AB00E86B3A /* Project object */;
 }
